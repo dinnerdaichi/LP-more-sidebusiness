@@ -568,6 +568,13 @@ a {
   width: 100%
 }
 
+@media screen and (max-width: 750px) {
+  .redactor-editor table {
+    font-size: 14px;
+
+  }
+}
+
 .redactor-editor table td,
 .redactor-editor table th {
   border: 0 none;
